@@ -113,7 +113,7 @@ class PluginListItem extends JPanel implements SearchablePlugin
 
 		if (!pluginConfig.getDescription().isEmpty())
 		{
-			nameLabel.setToolTipText("<html>" + pluginConfig.getName() + ":<br>" + pluginConfig.getDescription() + "</html>");
+			nameLabel.setToolTipText("<html><div width='265'>" + pluginConfig.getName() + ":<br>" + pluginConfig.getDescription() + "</div></html>");
 		}
 
 		pinButton = new JToggleButton(OFF_STAR);
